@@ -1,13 +1,6 @@
 package zim.grigory.cdd_news_api.models;
 
-import com.fasterxml.jackson.annotation.JsonIncludeProperties;
-import jakarta.persistence.Column;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.Lob;
-import jakarta.persistence.ManyToOne;
-
-
-/*Возможно это не нужно и можно все сделать дерективами*/
+/*Возможно это не нужно, и можно все сделать дерективами*/
 public class NewsItemDTO {
     private Long id;
     private String title;

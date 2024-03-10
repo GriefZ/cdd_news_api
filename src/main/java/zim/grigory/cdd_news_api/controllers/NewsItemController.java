@@ -31,7 +31,7 @@ public class NewsItemController {
     @GetMapping("/news")
     public  ResponseEntity<List<NewsItem>> read() {
         final List<NewsItem> newsItems = newsItemRepository.findAll();
-        return newsItems != null
+        return !newsItems.isEmpty()
                 ? new ResponseEntity<>(newsItems, HttpStatus.OK)
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }

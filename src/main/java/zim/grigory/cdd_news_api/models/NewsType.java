@@ -3,7 +3,6 @@ package zim.grigory.cdd_news_api.models;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
-import java.awt.*;
 import java.util.HashSet;
 import java.util.Set;
 
