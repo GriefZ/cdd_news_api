@@ -1,0 +1,9 @@
+package zim.grigory.cdd_news_api.exception;
+
+public class ResourceNotFoundException extends RuntimeException{
+    private static final long serialVersionUID = 1L;
+
+    public ResourceNotFoundException(String msg) {
+        super(msg);
+    }
+}
